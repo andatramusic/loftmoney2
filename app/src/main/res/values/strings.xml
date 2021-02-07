@@ -3,4 +3,7 @@
     <string name="edittext_title_hint">Title</string>
     <string name="edittext_cost_hint">Cost</string>
     <string name="text_button1">Add</string>
+    <string name="expences">expences</string>
+    <string name="income">income</string>
+    <string name="price_with_currency">%s $</string>
 </resources>
