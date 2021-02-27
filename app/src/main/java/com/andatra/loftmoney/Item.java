@@ -3,26 +3,29 @@ package com.andatra.loftmoney;
 public class Item {
 
     private String title;
-    private int cost;
+    private double cost;
+    private boolean isSelected;
 
-    public Item(final String title, final int cost) {
+    public Item(String title, double cost) {
         this.title = title;
         this.cost = cost;
+        this.isSelected = false;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public void setTitle(final String title) {
-        this.title = title;
-    }
-
-    public int getCost() {
+    public double getCost() {
         return cost;
     }
 
-    public void setCost(final int cost) {
-        this.cost = cost;
+    public boolean isSelected() {
+        return isSelected;
     }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
+    }
+
 }
